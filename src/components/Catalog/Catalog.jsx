@@ -2,14 +2,16 @@ import styled from 'styled-components';
 import { Container } from '../../styles/Container.styled';
 import { Title } from '../../styles/Title.styled';
 import CatalogChapter from './CatalogChapter';
-// import chapters from '../../../public/data.js';
 import { useEffect } from 'react';
+import { useState } from 'react';
 
 function Catalog() {
-    useEffect(() => {
-        fetch('./json.json')
-            .then((response) => console.log(JSON.parse(response)))
+    const [result, setResult] = useState([]);
 
+    useEffect(() => {
+        fetch('/data.json')
+            .then((response) => response.json())
+            .then((data) => setResult(data.result))
             .catch((error) => console.error(error));
     }, []);
     // console.log(chapters);
@@ -17,9 +19,9 @@ function Catalog() {
         <StyledCatalog>
             <Container>
                 <Title>Каталог</Title>
-                {/* {chapters.map((item) => (
+                {result.map((item) => (
                     <CatalogChapter key={item.chapterTitle} title={item.chapterTitle} cards={item.products} />
-                ))} */}
+                ))}
             </Container>
         </StyledCatalog>
     );
