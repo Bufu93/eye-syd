@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: var(--color-black);
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-family: var(--font-main);
+    background: transparent;
+    font-weight: 400;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+:root {
+    --radius: 2px;
+    --shadow: 0px 12px 20px rgba(58, 58, 58, 0.15);
+    --transition: 0.2s ease;
+    --color-white: #ffffff;
+    --color-white-opac: rgba(255, 255, 255, 0.2);
+    --color-gray: #5e5e5e;
+    --color-black: #3a3a3a;
+    --color-brown: #ae8553;
+    --color-opac: rgba(58, 58, 58, 0.8);
+    --font-main: 'Montserrat', sans-serif;
+    --font-secondary: 'Playfair Display', serif;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fade 1s linear;
+}
