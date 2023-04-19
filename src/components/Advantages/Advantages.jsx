@@ -34,6 +34,9 @@ function Advantages() {
 
 const StyledAdvantagesItem = styled.div`
     max-width: 290px;
+    @media (max-width: 992px) {
+        max-width: none;
+    }
     h4 {
         font-family: var(--font-secondary);
         font-style: normal;
@@ -42,12 +45,18 @@ const StyledAdvantagesItem = styled.div`
         line-height: 130%;
         color: var(--color-white);
         margin-bottom: 16px;
+        @media (max-width: 992px) {
+            font-size: 18px;
+        }
     }
     p {
         font-weight: 400;
         font-size: 15px;
         line-height: 150%;
         color: #ebebeb;
+        @media (max-width: 992px) {
+            font-size: 14px;
+        }
     }
 `;
 
@@ -55,12 +64,20 @@ const StyledAdvantagesWrapper = styled.div`
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    @media (max-width: 992px) {
+        flex-direction: column;
+        gap: 24px;
+    }
 `;
 
 const StyledAdvantages = styled.section`
     padding-top: 48px;
     padding-bottom: 80px;
     background: url('./pic/bg.jpg') no-repeat center center / cover;
+    @media (max-width: 992px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 `;
 
 export default Advantages;

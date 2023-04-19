@@ -1,23 +1,35 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ButtonPrimary } from '../../styles/Button.styled';
+import { useDispatch } from 'react-redux';
+import { setCurrentProduct } from '../../redux/slice';
+import { useNavigate } from 'react-router-dom';
 
-function CatalogCard({ title, price, photos }) {
-    const findMainPhoto = photos.find((f) => f.main === true);
+function CatalogCard(product) {
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+    const findMainPhoto = product.photos.find((f) => f.main === true);
 
     return (
         <StyledCatalogCard>
             <StyledCatalogCardImg>
-                <img src={findMainPhoto.src && findMainPhoto.src} alt={title} width="100%" height="100%" />
+                <img src={findMainPhoto.src && findMainPhoto.src} alt={product.title} width="100%" height="100%" />
             </StyledCatalogCardImg>
 
             <StyledCatalogCardInfo>
-                <h5>{title && title}</h5>
+                <h5>{product.title && product.title}</h5>
                 <span>
                     от
-                    <small>{price}</small>
+                    <small>{product.price}</small>
                 </span>
-                <ButtonPrimary>Подробнее</ButtonPrimary>
+                <ButtonPrimary
+                    onClick={() => {
+                        dispatch(setCurrentProduct(product));
+                        navigate('product');
+                    }}
+                >
+                    Подробнее
+                </ButtonPrimary>
             </StyledCatalogCardInfo>
         </StyledCatalogCard>
     );

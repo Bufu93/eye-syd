@@ -6,9 +6,9 @@ function About() {
     return (
         <StyledAbout id={'about'}>
             <Container>
+                <Title>Обо мне</Title>
                 <StyledAboutWrapper>
                     <StyledAboutInfo>
-                        <Title>Обо мне</Title>
                         <h4>Привет! Меня зовут Денис Самарин, и я пять лет создаю авторские цепи и браслеты ручной работы.</h4>
                         <p>
                             В основе моей концепции лежат сложные конструкции, синтез современных технологий и «ручных» процессов изготовления,
@@ -38,28 +38,52 @@ const StyledAboutWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 30px;
+    @media (max-width: 992px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 const StyledAboutInfo = styled.div`
     max-width: 580px;
+    @media (max-width: 992px) {
+        max-width: none;
+    }
     h4 {
         font-weight: 600;
         font-size: 24px;
         line-height: 150%;
         margin-bottom: 16px;
+        @media (max-width: 992px) {
+            font-size: 18px;
+            max-width: 600px;
+        }
     }
     p {
         margin-bottom: 16px;
         font-weight: 400;
         font-size: 15px;
         line-height: 150%;
+        @media (max-width: 992px) {
+            font-size: 14px;
+        }
     }
 `;
-const StyledAboutImg = styled.div``;
+const StyledAboutImg = styled.div`
+    flex: none;
+    @media (max-width: 992px) {
+        max-width: 290px;
+    }
+`;
 
 const StyledAbout = styled.section`
     padding-top: 80px;
     padding-bottom: 80px;
+    @media (max-width: 992px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 `;
 
 export default About;

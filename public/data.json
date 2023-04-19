@@ -12,194 +12,33 @@
                     "photos": [
                         {
                             "src": "../pic/res/photo_1.jpg",
-                            "main": true
+                            "main": true,
+                            "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
+                            "src": "../pic/res/photo_2.jpg",
+                            "main": false,
+                            "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
+                            "src": "../pic/res/photo_3.jpg",
+                            "main": false,
+                            "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        }
-                    ]
-                },
-                {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
-                    "metal": "Ag 930",
-                    "price": "2 900 ₽",
-                    "photos": [
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": true
+                            "src": "../pic/res/photo_3.jpg",
+                            "main": true,
+                            "color": "Коричневый"
                         },
                         {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
+                            "src": "../pic/res/photo_3.jpg",
+                            "main": false,
+                            "color": "Коричневый"
                         },
                         {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        }
-                    ]
-                },
-                {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
-                    "metal": "Ag 930",
-                    "price": "2 900 ₽",
-                    "photos": [
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": true
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        }
-                    ]
-                },
-                {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
-                    "metal": "Ag 930",
-                    "price": "2 900 ₽",
-                    "photos": [
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": true
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        }
-                    ]
-                },
-                {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
-                    "metal": "Ag 930",
-                    "price": "2 900 ₽",
-                    "photos": [
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": true
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        }
-                    ]
-                },
-                {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
-                    "metal": "Ag 930",
-                    "price": "2 900 ₽",
-                    "photos": [
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": true
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        }
-                    ]
-                },
-                {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
-                    "metal": "Ag 930",
-                    "price": "2 900 ₽",
-                    "photos": [
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": true
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        }
-                    ]
-                },
-                {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
-                    "metal": "Ag 930",
-                    "price": "2 900 ₽",
-                    "photos": [
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": true
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
+                            "src": "../pic/res/photo_3.jpg",
+                            "main": false,
+                            "color": "Коричневый"
                         }
                     ]
                 }
@@ -217,44 +56,18 @@
                     "photos": [
                         {
                             "src": "../pic/res/photo_1.jpg",
-                            "main": true
+                            "main": true,
+                            "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
+                            "src": "../pic/res/photo_2.jpg",
+                            "main": false,
+                            "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        }
-                    ]
-                },
-                {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
-                    "metal": "Ag 930",
-                    "price": "2 900 ₽",
-                    "photos": [
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": true
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
-                        },
-                        {
-                            "src": "../pic/res/photo_1.jpg",
-                            "main": false
+                            "src": "../pic/res/photo_3.jpg",
+                            "main": false,
+                            "color": "Черный"
                         }
                     ]
                 }

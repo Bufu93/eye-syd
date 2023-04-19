@@ -13,6 +13,10 @@ export const ButtonPrimary = styled.button`
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     transition: all var(--transition);
+    @media (max-width: 992px) {
+        padding: 10px 23px;
+        font-size: 14px;
+    }
     &:hover {
         background: var(--color-white);
         color: var(--color-brown);
@@ -27,4 +31,7 @@ export const ButtonText = styled.button`
     line-height: 120%;
     color: var(--color-gray);
     border-bottom: 1px solid var(--color-gray);
+    @media (max-width: 992px) {
+        display: none;
+    }
 `;
