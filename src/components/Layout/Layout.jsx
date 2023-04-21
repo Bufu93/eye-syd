@@ -20,8 +20,6 @@ function Layout() {
         height: '100vh',
     };
 
-    console.log(isLoaded);
-
     function checkAllMediaLoaded() {
         const mediaElements = document.querySelectorAll('img, video');
         const promises = [];
@@ -46,7 +44,7 @@ function Layout() {
 
     useEffect(() => {
         setTimeout(() => {
-            console.log(checkAllMediaLoaded());
+            checkAllMediaLoaded();
         }, 3000);
     }, []);
 

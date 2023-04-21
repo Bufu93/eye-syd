@@ -6,13 +6,22 @@ import useWindowWidth from 'react-hook-use-window-width';
 function Hero() {
     const width = useWindowWidth();
 
+    // const sources = ['video/hero-video.mp4', 'video/hero-video.webm', 'video/hero-video.ogg'];
+
     return (
         <StyledHero>
             <VideoContainer>
                 <div className="opacity"></div>
-                {width > 992 && (
-                    <ReactPlayer url="video/hero-video.mp4" autoPlay={true} playing={true} muted={true} loop={true} width="100%" height={'auto'} />
-                )}
+                <ReactPlayer
+                    url={'video/hero-video.mp4'}
+                    autoPlay={true}
+                    playing={true}
+                    muted={true}
+                    loop={true}
+                    playsinline={true}
+                    width="100%"
+                    height={'auto'}
+                />
             </VideoContainer>
             <HeroContainer>
                 <StyledHeroInfo>
@@ -79,9 +88,9 @@ const VideoContainer = styled.div`
     height: 100vh;
     overflow: hidden;
     z-index: -3;
-    @media (max-width: 992px) {
+    /* @media (max-width: 992px) {
         background: url('./pic/banner_mobile.jpg') no-repeat center center / cover;
-    }
+    } */
     video {
         position: absolute;
         top: 50%;

@@ -24,6 +24,7 @@ function CatalogDetailsGallery() {
 
     useEffect(() => {
         setFilteredPhotos(currentProduct.photos.filter((photo) => photo.color.toLowerCase() === currentProductColor.toLowerCase()));
+        setCurrentSlide(currentProduct.photos.find((f) => f.main === true && f.color.toLowerCase() === currentProductColor.toLowerCase()));
     }, [currentProductColor]);
 
     return (
@@ -32,11 +33,12 @@ function CatalogDetailsGallery() {
                 <img src={currentSlide.src} width="100%" height="100%" alt="Продукт" onLoad={handleImageLoad} />
             </GalleryMainPhoto>
             <GalleryWrapper>
-                {filteredPhotos.map((photo) => (
-                    <GallerySecondPhoto active={currentSlide.src === photo.src} key={nanoid()} onClick={() => setCurrentSlide(photo)}>
-                        <img src={photo.src} width="100%" height="100%" alt="Продукт" />
-                    </GallerySecondPhoto>
-                ))}
+                {filteredPhotos.length > 1 &&
+                    filteredPhotos.map((photo) => (
+                        <GallerySecondPhoto active={currentSlide.src === photo.src} key={nanoid()} onClick={() => setCurrentSlide(photo)}>
+                            <img src={photo.src} width="100%" height="100%" alt="Продукт" />
+                        </GallerySecondPhoto>
+                    ))}
             </GalleryWrapper>
         </StyledCatalogDetailsGallery>
     );

@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import CatalogDetails from './components/pages/CatalogDetails';
 import MainPage from './components/pages/MainPage';
@@ -14,8 +14,6 @@ function App() {
     const location = useLocation();
     const dispatch = useDispatch();
     const navigate = useNavigate();
-
-    console.log(currentProduct);
 
     useEffect(() => {
         if (width > 992) {
@@ -60,6 +58,8 @@ function App() {
             <Route path="/" element={<Layout />}>
                 <Route index element={<MainPage />} />
                 <Route path="product" element={<CatalogDetails />} />
+                <Route path="product/*" element={<Navigate to="/product" replace />} />
+                <Route path="/*" element={<Navigate to="/" replace />} />
             </Route>
         </Routes>
     );

@@ -4,41 +4,318 @@
             "chapterTitle": "Браслеты",
             "products": [
                 {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
+                    "title": "Бисмарк ( 6мм )",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "15,3 г",
                     "metal": "Ag 930",
-                    "price": "2 900 ₽",
+                    "price": "4 560 ₽",
                     "photos": [
                         {
-                            "src": "../pic/res/photo_1.jpg",
+                            "src": "../pic/res/brasleti/bismark/6/1black.jpg",
                             "main": true,
                             "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_2.jpg",
+                            "src": "../pic/res/brasleti/bismark/6/2black.jpg",
                             "main": false,
                             "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_3.jpg",
+                            "src": "../pic/res/brasleti/bismark/6/3black.jpg",
                             "main": false,
                             "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_3.jpg",
+                            "src": "../pic/res/brasleti/bismark/6/1white.jpg",
                             "main": true,
-                            "color": "Коричневый"
+                            "color": "Белый"
                         },
                         {
-                            "src": "../pic/res/photo_3.jpg",
+                            "src": "../pic/res/brasleti/bismark/6/2white.jpg",
                             "main": false,
-                            "color": "Коричневый"
+                            "color": "Белый"
                         },
                         {
-                            "src": "../pic/res/photo_3.jpg",
+                            "src": "../pic/res/brasleti/bismark/6/3white.jpg",
                             "main": false,
-                            "color": "Коричневый"
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Бисмарк ( 9мм )",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "26,3 г",
+                    "metal": "Ag 930",
+                    "price": "7 890 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/brasleti/bismark/9/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/bismark/9/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/bismark/9/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/bismark/9/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/bismark/9/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/bismark/9/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Рино ( 30мм )",
+                    "colors": ["Белый"],
+                    "weight": "83,3 г",
+                    "metal": "Ag 930",
+                    "price": "24 900 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/brasleti/rino-litie/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/rino-litie/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/rino-litie/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Нова ( 13,5мм )",
+                    "colors": ["Белый"],
+                    "weight": "49,8 г",
+                    "metal": "Ag 930",
+                    "price": "12 450 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/brasleti/nova/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/nova/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/nova/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Панцирь ( 6мм )",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "21,7 г",
+                    "metal": "Ag 930",
+                    "price": "6 510 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/brasleti/pancir/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/pancir/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/pancir/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/pancir/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/pancir/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/pancir/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Питон ( 9мм )",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "27,9 г",
+                    "metal": "Ag 930",
+                    "price": "8 370 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/brasleti/piton/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/piton/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/piton/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/piton/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/piton/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/piton/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Роза ( 9мм )",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "18,9 г",
+                    "metal": "Ag 930",
+                    "price": "5 670 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/brasleti/roza/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/roza/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/roza/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/roza/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/roza/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/roza/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Якорь ( 6мм )",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "25,2 г",
+                    "metal": "Ag 930",
+                    "price": "7 560 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/brasleti/yakor/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakor/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakor/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakor/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakor/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakor/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Якорь 'Classic' ( 6мм )",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "19,2 г",
+                    "metal": "Ag 930",
+                    "price": "5 760 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/brasleti/yakorclassic/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakorclassic/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakorclassic/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakorclassic/2white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/brasleti/yakorclassic/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
                         }
                     ]
                 }
@@ -48,25 +325,232 @@
             "chapterTitle": "Кольца",
             "products": [
                 {
-                    "title": "Плетение «Какое-то название 1",
-                    "colors": ["Черный", "Коричневый"],
-                    "weight": "30 г",
+                    "title": "Бисмарк",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "1,72 г",
                     "metal": "Ag 930",
-                    "price": "2 900 ₽",
+                    "price": "2 200 ₽",
                     "photos": [
                         {
-                            "src": "../pic/res/photo_1.jpg",
+                            "src": "../pic/res/kolca/bismark/1black.jpg",
                             "main": true,
                             "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_2.jpg",
+                            "src": "../pic/res/kolca/bismark/2black.jpg",
                             "main": false,
                             "color": "Черный"
                         },
                         {
-                            "src": "../pic/res/photo_3.jpg",
+                            "src": "../pic/res/kolca/bismark/3black.jpg",
                             "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/bismark/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/bismark/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/bismark/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Нова",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "1,4 г",
+                    "metal": "Ag 930",
+                    "price": "2 000 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/kolca/nova/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/nova/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/nova/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/nova/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/nova/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/nova/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Панцирь",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "2,6 г",
+                    "metal": "Ag 930",
+                    "price": "2 200 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/kolca/pancir/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/pancir/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/pancir/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/pancir/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/pancir/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/pancir/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Питон",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "1,69 г",
+                    "metal": "Ag 930",
+                    "price": "3 000 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/kolca/piton/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/piton/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/piton/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/piton/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/piton/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/piton/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                },
+                {
+                    "title": "Якорь",
+                    "colors": ["Черный", "Белый"],
+                    "weight": "3,4 г",
+                    "metal": "Ag 930",
+                    "price": "2 600 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/kolca/yakor/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/yakor/2black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/yakor/3black.jpg",
+                            "main": false,
+                            "color": "Черный"
+                        },
+                        {
+                            "src": "../pic/res/kolca/yakor/1white.jpg",
+                            "main": true,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/yakor/2white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        },
+                        {
+                            "src": "../pic/res/kolca/yakor/3white.jpg",
+                            "main": false,
+                            "color": "Белый"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterTitle": "Цепи",
+            "products": [
+                {
+                    "title": "Ленивый Якорь ( 3мм )",
+                    "colors": ["Черный"],
+                    "weight": "29,8 г",
+                    "metal": "Ag 930",
+                    "price": "8 940 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/cepi/leniviy/1black.jpg",
+                            "main": true,
+                            "color": "Черный"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "chapterTitle": "Разное",
+            "products": [
+                {
+                    "title": "Упаковка для кольца",
+                    "colors": ["Черный"],
+                    "price": "332 ₽",
+                    "photos": [
+                        {
+                            "src": "../pic/res/raznoe/upakovaka-kolca/1black.jpg",
+                            "main": true,
                             "color": "Черный"
                         }
                     ]

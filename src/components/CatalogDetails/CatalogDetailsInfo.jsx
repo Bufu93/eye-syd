@@ -19,15 +19,21 @@ function CatalogDetailsInfo() {
                 <h3 className="detTitle">{currentProduct.title && currentProduct.title}</h3>
                 <ColorSelect />
                 <div className="detReal">На заказ</div>
-                <div className="detSpec">
-                    вес от: <span className="detText">{currentProduct.weight && currentProduct.weight}</span>
-                </div>
-                <div className="detSpec">
-                    металл: <span className="detText">{currentProduct.metal && currentProduct.metal}</span>
-                </div>
-                <div className="detSpec">
-                    цена от: <span className="detText-brown">{currentProduct.price && currentProduct.price}</span>
-                </div>
+                {currentProduct.weight && (
+                    <div className="detSpec">
+                        вес от: <span className="detText">{currentProduct.weight}</span>
+                    </div>
+                )}
+                {currentProduct.metal && (
+                    <div className="detSpec">
+                        металл: <span className="detText">{currentProduct.metal}</span>
+                    </div>
+                )}
+                {currentProduct.price && (
+                    <div className="detSpec">
+                        цена от: <span className="detText-brown">{currentProduct.price}</span>
+                    </div>
+                )}
             </StyledCatalogDetailsInfoWrapper>
             <ButtonPrimary onClick={onOrder}>Заказать</ButtonPrimary>
         </StyledCatalogDetailsInfo>

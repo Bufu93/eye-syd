@@ -21,7 +21,6 @@ function From() {
     } = useForm({ mode: 'onBlur' });
 
     const onSubmit = (data) => {
-        console.log(data);
         let FromData = '';
         if (formType === 'order') {
             FromData = `<b>Заявка на обратную связь с ВЫБРАННЫМ изделием:</b>%0A %0A Имя: ${data.name} %0A Телефон: ${data.phone} %0A Изделие: ${currentProduct.title} %0A Цвет: ${currentProductColor} %0A Коментарий: ${data.comment} `;
@@ -39,7 +38,6 @@ function From() {
                 dispatch(setThxMessage(true));
             })
             .catch(function (error) {
-                console.log(error);
                 dispatch(setModal(false));
                 dispatch(setThxMessageType(false));
                 dispatch(setThxMessage(true));
@@ -47,7 +45,6 @@ function From() {
             .finally(() => {
                 <p>Loading...</p>;
             });
-        console.log(FromData);
         reset();
     };
 

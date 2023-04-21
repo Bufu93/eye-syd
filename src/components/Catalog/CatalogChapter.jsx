@@ -56,6 +56,7 @@ const StyledCatalogChapterWrapper = styled.div`
 const StyledCatalogChapter = styled.div`
     margin-bottom: 32px;
     h4 {
+        font-family: var(--font-secondary);
         font-weight: 700;
         font-size: 24px;
         line-height: 130%;
